@@ -43,6 +43,15 @@ h2 {
     font-weight: bold;
 }
 
+.body1 {
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -56,6 +65,17 @@ p, ol, ul, td {
     font-size: 13px;
     line-height: 18px;
     margin: 33px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 table {
@@ -81,4 +101,18 @@ td {
     padding-bottom: 7px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.th-a {
+    width: 186.75px;
+}
+.th-b {
+    width: 394.11px;
+}
+.th-c {
+    width: 143.38px;
+}
+
+.field {
+    margin-bottom: 10px;
 }
